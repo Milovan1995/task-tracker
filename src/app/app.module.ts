@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -11,6 +10,8 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
+import { RouterModule } from '@angular/router';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
     TasksComponent,
     TaskItemComponent,
     AddTaskComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,7 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
     FontAwesomeModule,
     HttpClientModule,
     FormsModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
