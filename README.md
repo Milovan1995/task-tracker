@@ -1,27 +1,63 @@
-# TaskTracker
+# Task Tracker Application with Angular and JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+## Overview
 
-## Development server
+This repository contains a task tracker application built with Angular, a popular web application framework, and utilizes a fake REST service implemented using JSON Server. The application provides a simple and intuitive interface for tracking tasks and managing your to-do list efficiently.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Angular Framework**: The application is built using the Angular framework, providing a modular and maintainable structure for developing robust web applications.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **JSON Server**: A fake REST service is implemented using JSON Server, allowing you to simulate backend interactions without the need for a real server.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- Ensure you have Node.js and npm installed on your machine.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installation
 
-## Running end-to-end tests
+1. Clone the repository to your local machine:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   ```bash
+   git clone https://github.com/your-username/task-tracker.git
+   ```
 
-## Further help
+2. Navigate to the project directory:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   cd task-tracker
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Start JSON Server
+
+Start the JSON Server to simulate the backend. Open a new terminal window and run the following command:
+
+```bash
+npm run server
+```
+
+### Start the Angular Application
+
+```bash
+ng serve
+```
+
+The task tracker application will be accessible at `http://localhost:4200`.
+
+### Usage
+
+Once the application and JSON server are running, you can access the task tracker in your web browser. Use the interface to add, delete and put reminders on tasks as needed.
+
+## License
+
+This project is licensed under the MIT License.
+
+Happy task tracking 🚀
